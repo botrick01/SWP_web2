@@ -1,0 +1,13 @@
+div{
+    background-color: darkblue;
+}
+#header{
+    font-size: 2rem;
+}
+.subtitle{
+    color: rebeccapurple;
+}
+
+#text p {
+    background-color: red;
+}
