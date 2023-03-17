@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            left: 30px;
+            position: relative;
+        }
+      .yellow {
+        background-color: yellow;
+        width: 100vw;
+        height: 100px;
+        position: relative;
+      }
+      .blue {
+        background-color: blue;
+        height: 300px;
+        width: 400px;
+        position: relative;
+        top: 20px;
+        left: 20px;
+      }
+      .violet {
+        background-color: violet;
+        height: 50px;
+        width: 50px;
+        bottom: 0px;
+        right: 0px;
+        position: absolute;
+      }
+      .brown {
+        background-color: brown;
+        height: 100px;
+        width: 100px;
+        bottom: 0px;
+        right: 0px;
+        position: absolute;
+      }
+      .green {
+        background-color: green;
+        width: 30px;
+        height: 30px;
+        position: relative;
+      }
+      .grid {
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        bottom: 10px;
+        right: 20px;
+        position: absolute;
+        width: 33%;
+      }
+        .text {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="yellow">
+      <div class="grid">
+        <div class="green"></div>
+        <div class="green"></div>
+        <div class="green"></div>
+      </div>
+    </div>
+    <div class="blue">
+      <div class="text">
+        <h1>Willkommen!</h1>
+        <li>Eins</li>
+        <li>Zwei</li>
+        <li>Drei</li>
+      </div>
+      <div class="brown"></div>
+</div>
+    <div class="violet"></div>
+  </body>
+</html>
