@@ -1,0 +1,28 @@
+.isOn{
+    background-color: green;
+    padding: 10px;
+    border-style: solid;
+    transition: 1000ms;
+}
+.isOff{
+    background-color: red;
+    padding: 10px;
+    border-style: solid;
+    transition: 1000ms;
+}
+
+.isOff:hover{
+    background-color: darkred;
+    padding: 10px;
+    border-style: solid;
+    scale: 1.1;
+    transition: 1000ms;
+}
+
+.isOn:hover{
+    background-color: darkgreen;
+    padding: 10px;
+    border-style: solid;
+    scale: 1.1;
+    transition: 1000ms;
+}

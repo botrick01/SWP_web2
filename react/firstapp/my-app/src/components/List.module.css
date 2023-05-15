@@ -1,0 +1,29 @@
+.main{
+    margin: 10px;
+}
+.active{
+    background-color: darkturquoise;
+    padding: 10px;
+    border-style: solid;
+    transition: 500ms;
+}
+.inactive{
+    background-color: darkcyan;
+    padding: 10px;
+    border-style: solid;
+    transition: 500ms;
+}
+.active:hover{
+    background-color: darkturquoise;
+    padding: 10px;
+    border-style: solid;
+    scale: 1.1;
+    transition: 500ms;
+}
+.inactive:hover{
+    background-color:darkcyan;
+    padding: 10px;
+    border-style: solid;
+    scale: 1.1;
+    transition: 500ms;
+}

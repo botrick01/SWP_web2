@@ -1,0 +1,30 @@
+.man{
+    color: navy;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 150px;
+    height: 200px;
+}
+.woman{
+    color: darkred;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 150px;
+    height: 200px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}

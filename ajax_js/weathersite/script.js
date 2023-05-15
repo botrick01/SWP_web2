@@ -1,5 +1,19 @@
 function loadWeather() {
   var city = document.getElementById("input").value;
+  let time;
+    fetch("https://api.api-ninjas.com/v1/timezone?city=" + city, {
+        method: "GET",
+        headers: {
+            "X-Api-Key": "vLfdi88FGGJ72BV60gGk7A==rWnyvHNHqxrgjL1Y",
+        },
+            })
+            .then((response) => response.json())
+            .then(function (data) {
+                if (!data.error) {
+                    time = data.time;
+                    console.log(data);
+                }
+            });
 
   fetch("https://api.api-ninjas.com/v1/weather?city=" + city, {
     method: "GET",
